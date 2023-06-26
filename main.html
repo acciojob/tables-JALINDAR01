@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <table class="table" border>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">From</th>
+        <th scope="col">To</th>
+        <th scope="col">Amount($)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Product 1</td>
+        <td>10</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Product 2</td>
+        <td>5</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Product 3</td>
+        <td>8</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3" class="text-end fw-bold">Total:</td>
+        <td id="total" class="font-monospace">230</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+  
 </body>
-
 </html>
